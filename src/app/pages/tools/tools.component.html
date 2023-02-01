@@ -1,0 +1,31 @@
+<div class="container mt-3">
+
+  <header>
+    <h1>Herramientas</h1>
+    <p>Herramientas, librerías, frameworks que utilizo o quiero utilizar.</p>
+  </header>
+
+  <div *ngFor="let sectionTools of tools">
+    {{ sectionTools.section }}
+    <div class="masonry-container">
+
+      <div class="card text-dark" *ngFor="let tool of sectionTools.items">
+        <div class="card-body">
+          <h5 class="card-title">{{ tool.title }}</h5>
+          <p class="card-text">{{ tool.description }}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
