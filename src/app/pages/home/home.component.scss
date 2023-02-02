@@ -1,0 +1,14 @@
+#particles-js {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -100;
+    z-index: -1;
+    overflow: hidden;
+    margin: 0;
+}
+
+.code-text {
+  font-family: 'Courier New', Courier, monospace;
+}

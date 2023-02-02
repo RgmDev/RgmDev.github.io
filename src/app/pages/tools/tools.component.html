@@ -1,0 +1,38 @@
+<div class="container mt-3">
+
+  <header>
+    <h1>Herramientas</h1>
+    <p>Herramientas, librerías, frameworks que utilizo o quiero utilizar.</p>
+  </header>
+
+  <div *ngFor="let sectionTools of tools">
+    <h2>{{ sectionTools.section }}</h2>
+    <div class="masonry-container">
+
+      <div class="card text-dark" *ngFor="let tool of sectionTools.items">
+        <div class="card-body mb-0">   
+          <h5>
+            <div *ngIf="tool.title.url; else elseBlock">
+              <a [href]="tool.title.url" class="card-link" target="_blank">{{ tool.title.text }}</a>
+              <small><i class="bi bi-check-circle-fill ms-1" [ngClass]="{'text-success': tool.title.check, 'text-black-50': !tool.title.check}"></i></small>
+            </div>
+            <ng-template #elseBlock>{{ tool.title.text }}</ng-template>
+          </h5>
+          <p class="card-text">{{ tool.description }}</p>
+        </div>
+        <ul class="list-group list-group-flush" *ngIf="tool.links.length">
+          <li class="list-group-item" *ngFor="let link of tool.links">
+            <a [href]="link.url" class="card-link" target="_blank">{{ link.text }}</a>
+            <small><i class="bi bi-check-circle-fill ms-1" [ngClass]="{'text-success': link.check, 'text-black-50': !link.check}"></i></small>
+            <p class="m-0"><small>{{ link.description }}</small></p>
+          </li>
+        </ul>
+        <div class="card-body mb-0" [ngClass]="{'border-top': !tool.links.length}">
+          <span class="badge rounded-pill text-bg-primary me-1" *ngFor="let tag of tool.tags">{{ tag.text }}</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
