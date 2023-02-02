@@ -3,156 +3,191 @@
     "section": "Cloud",
     "items": [
       {
-        "title": "Terraform",
-        "url": "https://www.terraform.io/",
-        "description": "Automatizaciones de infraestructura en cualquier servicio cloud.",
-        "test": false,
-        "links": [
-
-        ],
+        "title": {
+          "text": "Markdown to HTML",
+          "url": "https://showdownjs.com/",
+          "check": false
+        },
+        "description":"Convierte un documento con formato markdown a código HTML.",
+        "links": [],
         "tags": [
-          {
-            "name": "cloud",
-            "color": "primary"
-          },
-          {
-            "name": "tool",
-            "color": "danger"
-          }
+          { "text": "html" },
+          { "text": "front-end" }
         ]
       },
       {
-        "title": "Servicios de host de aplicaciones",
-        "url": false,
-        "description": "Herramientas para alojamiento y automatización de despliegues.",
-        "test": false,
+        "title": {
+          "text": "Fuentes / Tipografías"
+        },
+        "description":"Plataformas que permiten crear un back-end en la nube aportando servicios de base datos, autenticación...",
         "links": [
           {
-            "title": "Heroku",
-            "url": "https://www.heroku.com/"
+            "text": "Dafont",
+            "url": "https://www.dafont.com/es/",
+            "check": true,
+            "description": ""
           },
           {
-            "title": "Deta",
-            "url": "https://www.deta.sh/"
+            "text": "Font Squirrel",
+            "url": "https://www.fontsquirrel.com/",
+            "check": true,
+            "description": ""
           },
           {
-            "title": "Netlify",
-            "url": "https://www.netlify.com/"
-          },
-          {
-            "title": "Vercel",
-            "url": "https://vercel.com/"
+            "text": "Google Fonts",
+            "url": "https://fonts.google.com/",
+            "check": true,
+            "description": ""
           }
         ],
         "tags": [
-          {
-            "name": "cloud",
-            "color": "primary"
-          },
-          {
-            "name": "tool",
-            "color": "danger"
-          }
+          { "text": "front-end" },
+          { "text": "css" }
         ]
       },
       {
-        "title": "Servicios cloud de backend",
-        "url": false,
-        "description": "Desarrollo de back-ends con herramientas predeterminadas (Autenticación, almacenamiento...).",
-        "test": false,
+        "title": {
+          "text": "Servicios cloud de back-end"
+        },
+        "description":"Plataformas que permiten crear un back-end en la nube aportando servicios de base datos, autenticación...",
         "links": [
           {
-            "title": "Firebase",
-            "url": "https://firebase.google.com/"
+            "text": "Firebase",
+            "url": "https://firebase.google.com/",
+            "check": true,
+            "description": "Con el sello de calidad de Google"
           },
           {
-            "title": "Superbase",
-            "url": "https://supabase.com/"
+            "text": "Supabase",
+            "url": "https://supabase.com/",
+            "check": false,
+            "description": "Alternativa open source a Firebase"
           },
           {
-            "title": "AWS Amplify",
-            "url": "https://aws.amazon.com/es/amplify/"
+            "text": "AWS Simplify",
+            "url": "https://aws.amazon.com/es/amplify/",
+            "check": false,
+            "description": "El firebase de la nube de Amazon"
           },
           {
-            "title": "Appwritter",
-            "url": "https://appwrite.io/cloud"
+            "text": "Appwritter",
+            "url": "https://appwrite.io/",
+            "check": false,
+            "description": "Servicio open source instalable en servidores propios"
           }
         ],
         "tags": [
-          {
-            "name": "cloud",
-            "color": "primary"
-          },
-          {
-            "name": "tool",
-            "color": "danger"
-          }
+          { "text": "cloud" },
+          { "text": "hosting" }
         ]
-      }
-    ]
-  },
-  {
-    "section": "Front-end",
-    "items": [
+      },
       {
-        "title": "Bootstrap snippets",
-        "link": false,
-        "description": "Automatizaciones de infraestructura en cualquier servicio cloud.",
-        "test": false,
+        "title": {
+          "text": "Librerias de iconos"
+        },
+        "description":"Paquetes de iconos para aplicaciones.",
         "links": [
           {
-            "title": "bootdey",
-            "url": "http://www.google.com"
+            "text": "Iconos8",
+            "url": "https://iconos8.es/icons",
+            "check": false,
+            "description": "Iconos 3D"
           },
           {
-            "title": "startbootstrap",
-            "url": "http://www.google.com"
+            "text": "SVG repo",
+            "url": "svgrepo.com",
+            "check": false,
+            "description": ""
+          },
+          {
+            "text": "Bootstrap icons",
+            "url": "https://icons.getbootstrap.com/",
+            "check": true,
+            "description": ""
+          },
+          {
+            "text": "Ionicons",
+            "url": "https://ionic.io/ionicons",
+            "check": true,
+            "description": ""
+          },
+          {
+            "text": "Font Awesome",
+            "url": "https://fontawesome.com/icons",
+            "check": true,
+            "description": ""
+          },
+          {
+            "text": "Google Icons",
+            "url": "https://fonts.google.com/icons",
+            "check": false,
+            "description": ""
           }
         ],
         "tags": [
-          {
-            "name": "cloud",
-            "color": "primary"
-          },
-          {
-            "name": "tool",
-            "color": "danger"
-          }
+          { "text": "icons" },
+          { "text": "front-end" },
+          { "text": "css" }
         ]
-      }
-    ]
-  },
-  {
-    "section": "Fuentes",
-    "items": [
+      },
       {
-        "title": "Servicios de fuentes de texto",
-        "link": false,
-        "description": "Plataformas que suministran diferentes fuentes de texto.",
-        "test": false,
+        "title": {
+          "text": "Serverless Framework",
+          "url": "https://www.serverless.com/",
+          "check": false
+        },
+        "description":"Autoescalado de aplicaciones en AWS Lamba.",
+        "links": [],
+        "tags": [
+          { "text": "cloud" }
+        ]
+      },
+      {
+        "title": {
+          "text": "Terraform",
+          "url": "https://www.terraform.io/",
+          "check": false
+        },
+        "description":"Automatizaciones de infraestructura en cualquier servicio cloud.",
+        "links": [],
+        "tags": [
+          { "text": "cloud" }
+        ]
+      },
+      {
+        "title": {
+          "text": "Servicios de host de aplicaciones"
+        },
+        "description":"Herramientas para alojamiento y automatización de despliegues.",
         "links": [
           {
-            "title": "Dafont",
-            "url": "https://www.dafont.com/"
+            "text": "Heroku",
+            "url": "https://www.heroku.com/",
+            "check": true,
+            "description": "Plataforma bastante guay"
           },
           {
-            "title": "Font squirrel",
-            "url": "https://www.fontsquirrel.com/"
+            "text": "Deta",
+            "url": "https://www.deta.sh/",
+            "check": false,
+            "description": ""
           },
           {
-            "title": "Google fonts",
-            "url": "https://fonts.google.com/"
+            "text": "Netlify",
+            "url": "https://www.netlify.com/",
+            "check": false,
+            "description": ""
+          },
+          {
+            "text": "Vercel",
+            "url": "https://vercel.com/",
+            "check": false,
+            "description": ""
           }
         ],
         "tags": [
-          {
-            "name": "fuentes",
-            "color": "primary"
-          },
-          {
-            "name": "tool",
-            "color": "danger"
-          }
+          { "text": "cloud" },
+          { "text": "hosting" }
         ]
       }
     ]
