@@ -16,7 +16,6 @@ export class ToolsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    console.log('get tools');
     this.http.get("assets/data/tools.json").subscribe((data: any) => {
       this.tools = data;
     });
