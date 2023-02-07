@@ -1,4 +1,4 @@
-<div class="container mt-3">
+<main class="container my-3">
 
   <header>
     <h1>Herramientas</h1>
@@ -10,7 +10,7 @@
     <div class="masonry-container">
 
       <div class="card text-dark" *ngFor="let tool of sectionTools.items">
-        <div class="card-body mb-0">   
+        <div class="card-body mb-0">
           <h5>
             <div *ngIf="tool.title.url; else elseBlock">
               <a [href]="tool.title.url" class="card-link" target="_blank">{{ tool.title.text }}</a>
@@ -35,4 +35,7 @@
     </div>
   </div>
 
-</div>
+</main>
+<footer class="mt-auto text-center text-white-50 pb-2">
+  <p>rgmdev | 2023 &copy;</p>
+</footer>
