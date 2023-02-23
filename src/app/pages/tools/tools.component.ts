@@ -10,6 +10,7 @@ import { HttpClient } from '@angular/common/http';
 export class ToolsComponent implements OnInit {
 
   tools: any[] = [];
+  tags: string[] = [];
 
   constructor(
     private http: HttpClient
@@ -18,6 +19,11 @@ export class ToolsComponent implements OnInit {
   ngOnInit() {
     this.http.get("assets/data/tools.json").subscribe((data: any) => {
       this.tools = data;
+      let tmp_tags: any[] = [];
+      this.tools.reduce((acc, cur) => {
+        tmp_tags.push(...cur.tags)
+      }, []);
+      this.tags = Array.from(new Set(tmp_tags)).sort();
     });
   }
 

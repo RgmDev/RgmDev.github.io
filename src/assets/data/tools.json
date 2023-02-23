@@ -1,796 +1,663 @@
 [
   {
-    "section": "Cloud",
-    "items": [
+    "title": {
+      "text": "Markdown to HTML",
+      "url": "https://showdownjs.com/",
+      "check": false
+    },
+    "description":"Convierte un documento con formato markdown a código HTML.",
+    "links": [],
+    "tags": ["html", "front-end", "converter"]
+  },
+  {
+    "title": {
+      "text": "Typed JS",
+      "url": "https://mattboldt.github.io/typed.js/",
+      "check": false
+    },
+    "description":"Efecto de escritura con cursor en texto.",
+    "links": [],
+    "tags": ["html", "front-end", "javascript"]
+  },
+  {
+    "title": {
+      "text": "Unused CSS",
+      "url": "https://unused-css.com/",
+      "check": false
+    },
+    "description":"Reporta sobre el código CSS que no se utiliza y genera una replica limipia.",
+    "links": [],
+    "tags": ["css", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Shape divider app",
+      "url": "https://www.shapedivider.app/",
+      "check": false
+    },
+    "description":"Configura y genera imágenes con forma curva para dividir secciones dentro de una página",
+    "links": [],
+    "tags": ["css", "front-end", "imágenes"]
+  },
+  {
+    "title": {
+      "text": "Get waves",
+      "url": "https://getwaves.io",
+      "check": false
+    },
+    "description":"Configura y genera imágenes con forma curva para dividir secciones dentro de una página",
+    "links": [],
+    "tags": ["css", "front-end", "imágenes"]
+  },
+  {
+    "title": {
+      "text": "Screenlane",
+      "url": "https://screenlane.com",
+      "check": false
+    },
+    "description":"Inspiración para diseñar UIs para móvil.",
+    "links": [],
+    "tags": ["app", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Quicktype",
+      "url": "https://quicktype.io",
+      "check": false
+    },
+    "description":"Convierte un json a una interface (typescript y otros tipos).",
+    "links": [],
+    "tags": ["convertidor", "front-end", "back-end"]
+  },
+  {
+    "title": {
+      "text": "Music for programming",
+      "url": "https://musicforprogramming.net",
+      "check": true
+    },
+    "description":"Música Lo-Fi relajante para ponerte mientras programas.",
+    "links": [],
+    "tags": ["sonido"]
+  },
+  {
+    "title": {
+      "text": "Animejs",
+      "url": "https://animejs.com",
+      "check": true
+    },
+    "description":"Animación de elementos con javascript.",
+    "links": [],
+    "tags": ["javascript", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Animate.css",
+      "url": "https://animate.style",
+      "check": true
+    },
+    "description":"Animación de elementos con CSS.",
+    "links": [],
+    "tags": ["css", "front-end"]
+  },
+  {
+    "title": {
+      "text": "ChatGPT",
+      "url": "https://chat.openai.com/chat",
+      "check": true
+    },
+    "description":"Inteligencia artificial que genera código. Pregúntale lo que quieras.",
+    "links": [],
+    "tags": ["ia"]
+  },
+  {
+    "title": {
+      "text": "Animista",
+      "url": "https://animista.net",
+      "check": false
+    },
+    "description":"Sanndbox para crear animaciones con CSS.",
+    "links": [],
+    "tags": ["css", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Airtap sounds",
+      "url": "https://airtap.io/w/uisounds",
+      "check": false
+    },
+    "description":"Sonidos gratis para uso en UIs (aplicaciones móviles, web u otros).",
+    "links": [],
+    "tags": ["html", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Web gradients",
+      "url": "https://webgradients.com",
+      "check": false
+    },
+    "description":"Ejemplos de gradientes de color en CSS e imágen.",
+    "links": [],
+    "tags": ["css", "front-end", "imágenes"]
+  },
+  {
+    "title": {
+      "text": "Trianglify.io",
+      "url": "https://trianglify.io",
+      "check": false
+    },
+    "description":"Configura y genera imágenes con texturas triangulares y gamas de colores para utilizar como fondo.",
+    "links": [],
+    "tags": ["css", "front-end", "imágenes"]
+  },
+  {
+    "title": {
+      "text": "Datatables",
+      "url": "https://datatables.net/",
+      "check": true
+    },
+    "description":"Tabla de datos con filtros, paginación, campo de búsqueda, orden por campos...",
+    "links": [],
+    "tags": ["javascript", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Slazzer",
+      "url": "https://www.slazzer.com/",
+      "check": true
+    },
+    "description":"Elimina el fondo de una imágen. Cuenta con API para integraciones vía programación.",
+    "links": [],
+    "tags": ["imágenes", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Cockroach DB",
+      "url": "https://www.cockroachlabs.com/product/",
+      "check": false
+    },
+    "description":"Bases de datos SQL en la nube escalables.",
+    "links": [],
+    "tags": ["cloud", "base de datos", "back-end"]
+  },
+  {
+    "title": {
+      "text": "10015.io",
+      "url": "https://10015.io",
+      "check": false
+    },
+    "description":"Mogollón de herramientas online (convertidores, minifiers...).",
+    "links": [],
+    "tags": ["convertidor", "otros"]
+  },
+  {
+    "title": {
+      "text": "Quickchart",
+      "url": "https://quickchart.io",
+      "check": true
+    },
+    "description":"Basado en chart.js permite generar un grafico a través de una URL.",
+    "links": [],
+    "tags": ["front-end", "imágenes"]
+  },
+  {
+    "title": {
+      "text": "Ngrok",
+      "url": "https://ngrok.com/",
+      "check": false
+    },
+    "description":"Crea un tunel a tu localhost para publicar tu app.",
+    "links": [],
+    "tags": ["back-end"]
+  },
+  {
+    "title": {
+      "text": "Clippy",
+      "url": "https://bennettfeely.com/clippy/",
+      "check": false
+    },
+    "description":"Sandbox para crear máscaras de imágen con formas.",
+    "links": [],
+    "tags": ["front-end", "imágenes", "css"]
+  },
+  {
+    "title": {
+      "text": "Vorpal",
+      "url": "https://www.npmjs.com/package/vorpal",
+      "check": false
+    },
+    "description":"Crea aplicaciones de CLI interactivas en nodejs.",
+    "links": [],
+    "tags": ["cli"]
+  },
+  {
+    "title": {
+      "text": "Inquirer",
+      "url": "https://www.npmjs.com/package/vorpal",
+      "check": false
+    },
+    "description":"Interacción con el usuario a través de consola en nodejs.",
+    "links": [],
+    "tags": ["cli"]
+
+  },
+  {
+    "title": {
+      "text": "Squid",
+      "url": "http://www.squid-cache.org",
+      "check": true
+    },
+    "description":"Sotfware para crear un servidor proxy que gestiona accesos.",
+    "links": [],
+    "tags": [ "servidor", "otros"]
+  },
+  {
+    "title": {
+      "text": "Certificación de inglés",
+      "url": "https://www.efset.org/",
+      "check": true
+    },
+    "description":"Gratis y para Linkedin.",
+    "links": [],
+    "tags": ["formación", "otros"]
+  },
+  {
+    "title": {
+      "text": "Sloc Cloc and Code (SCC)",
+      "url": "https://github.com/boyter/scc",
+      "check": false
+    },
+    "description":"Devuelve un reporte sobre el código de tu aplicación (Lenguaje, archivos, líneas en blanco, comentarios, complejidad y costes estimados del desarrollo).",
+    "links": [],
+    "tags": ["cli"]
+  },
+  {
+    "title": {
+      "text": "Cool backgrounds",
+      "url": "https://coolbackgrounds.io",
+      "check": false
+    },
+    "description":"Genera diferentes imágenes para fondos con gradientes de color.",
+    "links": [],
+    "tags": ["javascript", "front-end", "imágenes"]
+  },
+  {
+    "title": {
+      "text": "Fondos de particulas"
+    },
+    "description":"Plataformas que permiten crear un back-end en la nube aportando servicios de base datos, autenticación...",
+    "links": [
       {
-        "title": {
-          "text": "Markdown to HTML",
-          "url": "https://showdownjs.com/",
-          "check": false
-        },
-        "description":"Convierte un documento con formato markdown a código HTML.",
-        "links": [],
-        "tags": [
-          { "text": "html" },
-          { "text": "front-end" }
-        ]
+        "text": "Particles.js by Vicent Garreau",
+        "url": "https://vincentgarreau.com/particles.js/",
+        "check": true,
+        "description": "Configura y genera fondos de particulas con diferentes formas (particles, nasa, snow, bubble...)."
       },
       {
-        "title": {
-          "text": "Typed JS",
-          "url": "https://mattboldt.github.io/typed.js/",
-          "check": false
-        },
-        "description":"Efecto de escritura con cursor en texto.",
-        "links": [],
-        "tags": [
-          { "text": "html" },
-          { "text": "front-end" },
-          { "text": "javascript" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Unused CSS",
-          "url": "https://unused-css.com/",
-          "check": false
-        },
-        "description":"Reporta sobre el código CSS que no se utiliza y genera una replica limipia.",
-        "links": [],
-        "tags": [
-          { "text": "css" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Shape divider app",
-          "url": "https://www.shapedivider.app/",
-          "check": false
-        },
-        "description":"Configura y genera imágenes con forma curva para dividir secciones dentro de una página",
-        "links": [],
-        "tags": [
-          { "text": "css" },
-          { "text": "front-end" },
-          { "text": "imágenes" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Get waves",
-          "url": "https://getwaves.io",
-          "check": false
-        },
-        "description":"Configura y genera imágenes con forma curva para dividir secciones dentro de una página",
-        "links": [],
-        "tags": [
-          { "text": "css" },
-          { "text": "front-end" },
-          { "text": "imágenes" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Screenlane",
-          "url": "https://screenlane.com",
-          "check": false
-        },
-        "description":"Inspiración para diseñar UIs para móvil.",
-        "links": [],
-        "tags": [
-          { "text": "app" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Quicktype",
-          "url": "https://quicktype.io",
-          "check": false
-        },
-        "description":"Convierte un json a una interface (typescript y otros tipos).",
-        "links": [],
-        "tags": [
-          { "text": "convertidor" },
-          { "text": "front-end" },
-           { "text": "back-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Music for programming",
-          "url": "https://musicforprogramming.net",
-          "check": true
-        },
-        "description":"Música Lo-Fi relajante para ponerte mientras programas.",
-        "links": [],
-        "tags": [
-          { "text": "sonido" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Animejs",
-          "url": "https://animejs.com",
-          "check": true
-        },
-        "description":"Animación de elementos con javascript.",
-        "links": [],
-        "tags": [
-          { "text": "javascript" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Animate.css",
-          "url": "https://animate.style",
-          "check": true
-        },
-        "description":"Animación de elementos con CSS.",
-        "links": [],
-        "tags": [
-          { "text": "css" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "ChatGPT",
-          "url": "https://chat.openai.com/chat",
-          "check": true
-        },
-        "description":"Inteligencia artificial que genera código. Pregúntale lo que quieras.",
-        "links": [],
-        "tags": [
-          { "text": "ia" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Animista",
-          "url": "https://animista.net",
-          "check": false
-        },
-        "description":"Sanndbox para crear animaciones con CSS.",
-        "links": [],
-        "tags": [
-          { "text": "css" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Airtap sounds",
-          "url": "https://airtap.io/w/uisounds",
-          "check": false
-        },
-        "description":"Sonidos gratis para uso en UIs (aplicaciones móviles, web u otros).",
-        "links": [],
-        "tags": [
-          { "text": "html" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Web gradients",
-          "url": "https://webgradients.com",
-          "check": false
-        },
-        "description":"Ejemplos de gradientes de color en CSS e imágen.",
-        "links": [],
-        "tags": [
-          { "text": "css" },
-          { "text": "front-end" },
-          { "text": "imágenes" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Trianglify.io",
-          "url": "https://trianglify.io",
-          "check": false
-        },
-        "description":"Configura y genera imágenes con texturas triangulares y gamas de colores para utilizar como fondo.",
-        "links": [],
-        "tags": [
-          { "text": "css" },
-          { "text": "front-end" },
-          { "text": "imágenes" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Datatables",
-          "url": "https://datatables.net/",
-          "check": true
-        },
-        "description":"Tabla de datos con filtros, paginación, campo de búsqueda, orden por campos...",
-        "links": [],
-        "tags": [
-          { "text": "javascript" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Slazzer",
-          "url": "https://www.slazzer.com/",
-          "check": true
-        },
-        "description":"Elimina el fondo de una imágen. Cuenta con API para integraciones vía programación.",
-        "links": [],
-        "tags": [
-          { "text": "imágenes" },
-          { "text": "front-end" },
-          { "text": "back-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Cockroach DB",
-          "url": "https://www.cockroachlabs.com/product/",
-          "check": false
-        },
-        "description":"Bases de datos SQL en la nube escalables.",
-        "links": [],
-        "tags": [
-          { "text": "cloud" },
-          { "text": "base de datos" },
-          { "text": "back-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "10015.io",
-          "url": "https://10015.io",
-          "check": false
-        },
-        "description":"Mogollón de herramientas online (convertidores, minifiers...).",
-        "links": [],
-        "tags": [
-          { "text": "convertidor" },
-          { "text": "otros" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Quickchart",
-          "url": "https://quickchart.io",
-          "check": true
-        },
-        "description":"Basado en chart.js permite generar un grafico a través de una URL.",
-        "links": [],
-        "tags": [
-          { "text": "front-end" },
-          { "text": "imágenes" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Ngrok",
-          "url": "https://ngrok.com/",
-          "check": false
-        },
-        "description":"Crea un tunel a tu localhost para publicar tu app.",
-        "links": [],
-        "tags": [
-          { "text": "back-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Clippy",
-          "url": "https://bennettfeely.com/clippy/",
-          "check": false
-        },
-        "description":"Sandbox para crear máscaras de imágen con formas.",
-        "links": [],
-        "tags": [
-          { "text": "front-end" },
-          { "text": "imágenes" },
-          { "text": "css" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Vorpal",
-          "url": "https://www.npmjs.com/package/vorpal",
-          "check": false
-        },
-        "description":"Crea aplicaciones de CLI interactivas en nodejs.",
-        "links": [],
-        "tags": [
-          { "text": "cli" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Inquirer",
-          "url": "https://www.npmjs.com/package/vorpal",
-          "check": false
-        },
-        "description":"Interacción con el usuario a través de consola en nodejs.",
-        "links": [],
-        "tags": [
-          { "text": "cli" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Squid",
-          "url": "http://www.squid-cache.org",
-          "check": true
-        },
-        "description":"Sotfware para crear un servidor proxy que gestiona accesos.",
-        "links": [],
-        "tags": [
-          { "text": "servidor" },
-          { "text": "otros" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Certificación de inglés",
-          "url": "https://www.efset.org/",
-          "check": true
-        },
-        "description":"Gratis y para Linkedin.",
-        "links": [],
-        "tags": [
-          { "text": "formación" },
-          { "text": "otros" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Sloc Cloc and Code (SCC)",
-          "url": "https://github.com/boyter/scc",
-          "check": false
-        },
-        "description":"Devuelve un reporte sobre el código de tu aplicación (Lenguaje, archivos, líneas en blanco, comentarios, complejidad y costes estimados del desarrollo).",
-        "links": [],
-        "tags": [
-          { "text": "cli" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Cool backgrounds",
-          "url": "https://coolbackgrounds.io",
-          "check": false
-        },
-        "description":"Genera diferentes imágenes para fondos con gradientes de color.",
-        "links": [],
-        "tags": [
-          { "text": "javascript" },
-          { "text": "front-end" },
-          { "text": "imágenes" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Fondos de particulas"
-        },
-        "description":"Plataformas que permiten crear un back-end en la nube aportando servicios de base datos, autenticación...",
-        "links": [
-          {
-            "text": "Particles.js by Vicent Garreau",
-            "url": "https://vincentgarreau.com/particles.js/",
-            "check": true,
-            "description": "Configura y genera fondos de particulas con diferentes formas (particles, nasa, snow, bubble...)."
-          },
-          {
-            "text": "Particles.js by Marc Brüderlin",
-            "url": "https://marcbruederlin.github.io/particles.js/",
-            "check": false,
-            "description": ""
-          }
-        ],
-        "tags": [
-          { "text": "javascript" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "APIs de prueba"
-        },
-        "description":"APIs mock para desarrollar aplicaciones sin preocuparte de los datos.",
-        "links": [
-          {
-            "text": "Dummy JSON",
-            "url": "https://dummyjson.com",
-            "check": true,
-            "description": "Datos para identificación, usuarios, productos, todos..."
-          },
-          {
-            "text": "Mockapi.io",
-            "url": "https://mockapi.io",
-            "check": true,
-            "description": "Crea tu propio mock fácil y sencillo."
-          },
-          {
-            "text": "NASA API",
-            "url": "https://api.nasa.gov",
-            "check": true,
-            "description": "La API de la NASA."
-          }
-        ],
-        "tags": [
-          { "text": "api" },
-          { "text": "back-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Extensiones VS Code"
-        },
-        "description":"Extensiones del IDE interesantes.",
-        "links": [
-          {
-            "text": "Live server",
-            "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
-            "check": true,
-            "description": "Ver los cambios automáticamente en el navegador si recargar."
-          },
-          {
-            "text": "OpenAPI",
-            "url": "https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi",
-            "check": true,
-            "description": "Documentación de APIs."
-          },
-          {
-            "text": "Docker",
-            "url": "https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker",
-            "check": true,
-            "description": "Gestión de los contenedores."
-          },
-          {
-            "text": "Gitlens",
-            "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
-            "check": true,
-            "description": "Permite ver quien y cuando realizo cambios en un archivo."
-          },
-          {
-            "text": "SSH Remote",
-            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh",
-            "check": true,
-            "description": "Te permite editar código en un servidor remoto a través de una conexión SSH."
-          }
-        ],
-        "tags": [
-          { "text": "otros" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Cursos de Google"
-        },
-        "description":"Sin certificación.",
-        "links": [
-          {
-            "text": "Web.dev",
-            "url": "web.dev",
-            "check": false,
-            "description": "Página principal"
-          },
-          {
-            "text": "Tiempos de carga rapidos",
-            "url": "https://web.dev/fast/",
-            "check": false,
-            "description": "Técnicas para mejorar el rendimiento del sitio."
-          },
-          {
-            "text": "Curso de Angular",
-            "url": "https://web.dev/angular/",
-            "check": false,
-            "description": "Crea aplicaciones de Angular progresivas y de alto rendimiento."
-          }
-        ],
-        "tags": [
-          { "text": "otros" },
-          { "text": "formación" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Convertidores de PNG a SVG"
-        },
-        "description":"Plataformas para convertir una imágen PNG a código SVG.",
-        "links": [
-          {
-            "text": "PNGtoSVG",
-            "url": "https://www.pngtosvg.com",
-            "check": true,
-            "description": "Máximo de 6 colores en la conversión."
-          },
-          {
-            "text": "Adobe Express",
-            "url": "https://www.adobe.com/express/feature/image/convert/png-to-svg",
-            "check": true,
-            "description": "Requiere registro."
-          },
-          {
-            "text": "Free Convert",
-            "url": "https://www.freeconvert.com/png-to-svg/download",
-            "check": true,
-            "description": "Permite configuraciones como máximo de colores, ignorar el fondo..."
-          }
-        ],
-        "tags": [
-          { "text": "javascript" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Bootstrap snippets & themes"
-        },
-        "description":"Snippets y templates para bootstrap.",
-        "links": [
-          {
-            "text": "Bootswatch",
-            "url": "https://bootswatch.com/",
-            "check": true,
-            "description": "Cambia el estilo de bootstrap rapidamente."
-          },
-          {
-            "text": "Start Bootstrap",
-            "url": "https://startbootstrap.com/snippets",
-            "check": true,
-            "description": "Snnipets y templates."
-          },
-          {
-            "text": "Bootstrapious",
-            "url": "https://bootstrapious.com/",
-            "check": true,
-            "description": ""
-          },
-          {
-            "text": "Bootdey",
-            "url": "https://www.bootdey.com/",
-            "check": true,
-            "description": ""
-          }
-        ],
-        "tags": [
-          { "text": "css" },
-          { "text": "javascript" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Fuentes / Tipografías"
-        },
-        "description":"Plataformas que permiten crear un back-end en la nube aportando servicios de base datos, autenticación...",
-        "links": [
-          {
-            "text": "Dafont",
-            "url": "https://www.dafont.com/es/",
-            "check": true,
-            "description": ""
-          },
-          {
-            "text": "Font Squirrel",
-            "url": "https://www.fontsquirrel.com/",
-            "check": true,
-            "description": ""
-          },
-          {
-            "text": "Google Fonts",
-            "url": "https://fonts.google.com/",
-            "check": true,
-            "description": ""
-          }
-        ],
-        "tags": [
-          { "text": "front-end" },
-          { "text": "css" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Servicios cloud de back-end"
-        },
-        "description":"Plataformas que permiten crear un back-end en la nube aportando servicios de base datos, autenticación...",
-        "links": [
-          {
-            "text": "Firebase",
-            "url": "https://firebase.google.com/",
-            "check": true,
-            "description": "Con el sello de calidad de Google"
-          },
-          {
-            "text": "Supabase",
-            "url": "https://supabase.com/",
-            "check": false,
-            "description": "Alternativa open source a Firebase"
-          },
-          {
-            "text": "AWS Simplify",
-            "url": "https://aws.amazon.com/es/amplify/",
-            "check": false,
-            "description": "El firebase de la nube de Amazon"
-          },
-          {
-            "text": "Appwritter",
-            "url": "https://appwrite.io/",
-            "check": false,
-            "description": "Servicio open source instalable en servidores propios"
-          }
-        ],
-        "tags": [
-          { "text": "cloud" },
-          { "text": "hosting" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Imágenes placeholders"
-        },
-        "description":"Agrega imágenes desde urls para desarrollar tus aplicaciones.",
-        "links": [
-          {
-            "text": "Picsum",
-            "url": "https://picsum.photos",
-            "check": true,
-            "description": "Imágenes random o fijas de tamaño configurable."
-          },
-          {
-            "text": "UI Avatars",
-            "url": "https://eu.ui-avatars.com/",
-            "check": true,
-            "description": "Genera imagenes a partir de un texto para avatares de usuarios."
-          }
-        ],
-        "tags": [
-          { "text": "imágenes" },
-          { "text": "front-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Librerias de iconos"
-        },
-        "description":"Paquetes de iconos para aplicaciones.",
-        "links": [
-          {
-            "text": "Iconos8",
-            "url": "https://iconos8.es/icons",
-            "check": false,
-            "description": "Iconos 3D"
-          },
-          {
-            "text": "SVG repo",
-            "url": "svgrepo.com",
-            "check": false,
-            "description": ""
-          },
-          {
-            "text": "Bootstrap icons",
-            "url": "https://icons.getbootstrap.com/",
-            "check": true,
-            "description": ""
-          },
-          {
-            "text": "Ionicons",
-            "url": "https://ionic.io/ionicons",
-            "check": true,
-            "description": ""
-          },
-          {
-            "text": "Font Awesome",
-            "url": "https://fontawesome.com/icons",
-            "check": true,
-            "description": ""
-          },
-          {
-            "text": "Google Icons",
-            "url": "https://fonts.google.com/icons",
-            "check": false,
-            "description": ""
-          },
-          {
-            "text": "Tabler icons",
-            "url": "https://tablericons.com",
-            "check": false,
-            "description": "Gratis para uso comercial, sin atribución"
-          }
-        ],
-        "tags": [
-          { "text": "icons" },
-          { "text": "front-end" },
-          { "text": "css" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Serverless Framework",
-          "url": "https://www.serverless.com/",
-          "check": false
-        },
-        "description":"Autoescalado de aplicaciones en AWS Lamba.",
-        "links": [],
-        "tags": [
-          { "text": "cloud" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Terraform",
-          "url": "https://www.terraform.io/",
-          "check": false
-        },
-        "description":"Automatizaciones de infraestructura en cualquier servicio cloud.",
-        "links": [],
-        "tags": [
-          { "text": "cloud" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Webpack bundle analizer",
-          "url": "https://github.com/webpack-contrib/webpack-bundle-analyzer",
-          "check": false
-        },
-        "description":"Visualiza el tamaño de los archivos generados por webpack en un treemap.",
-        "links": [],
-        "tags": [
-          { "text": "back-end" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Habitica",
-          "url": "https://habitica.com/static/home",
-          "check": false
-        },
-        "description":"Gamifica tus tareas.",
-        "links": [],
-        "tags": [
-          { "text": "otros" }
-        ]
-      },
-      {
-        "title": {
-          "text": "Servicios de host de aplicaciones"
-        },
-        "description":"Herramientas para alojamiento y automatización de despliegues.",
-        "links": [
-          {
-            "text": "Heroku",
-            "url": "https://www.heroku.com/",
-            "check": true,
-            "description": "Plataforma bastante guay"
-          },
-          {
-            "text": "Deta",
-            "url": "https://www.deta.sh/",
-            "check": false,
-            "description": ""
-          },
-          {
-            "text": "Netlify",
-            "url": "https://www.netlify.com/",
-            "check": false,
-            "description": ""
-          },
-          {
-            "text": "Vercel",
-            "url": "https://vercel.com/",
-            "check": false,
-            "description": ""
-          }
-        ],
-        "tags": [
-          { "text": "cloud" },
-          { "text": "hosting" }
-        ]
+        "text": "Particles.js by Marc Brüderlin",
+        "url": "https://marcbruederlin.github.io/particles.js/",
+        "check": false,
+        "description": ""
       }
-    ]
+    ],
+    "tags": ["javascript", "front-end"]
+  },
+  {
+    "title": {
+      "text": "APIs de prueba"
+    },
+    "description":"APIs mock para desarrollar aplicaciones sin preocuparte de los datos.",
+    "links": [
+      {
+        "text": "Dummy JSON",
+        "url": "https://dummyjson.com",
+        "check": true,
+        "description": "Datos para identificación, usuarios, productos, todos..."
+      },
+      {
+        "text": "Mockapi.io",
+        "url": "https://mockapi.io",
+        "check": true,
+        "description": "Crea tu propio mock fácil y sencillo."
+      },
+      {
+        "text": "NASA API",
+        "url": "https://api.nasa.gov",
+        "check": true,
+        "description": "La API de la NASA."
+      }
+    ],
+    "tags": ["api", "back-end"]
+  },
+  {
+    "title": {
+      "text": "Extensiones VS Code"
+    },
+    "description":"Extensiones del IDE interesantes.",
+    "links": [
+      {
+        "text": "Live server",
+        "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+        "check": true,
+        "description": "Ver los cambios automáticamente en el navegador si recargar."
+      },
+      {
+        "text": "OpenAPI",
+        "url": "https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi",
+        "check": true,
+        "description": "Documentación de APIs."
+      },
+      {
+        "text": "Docker",
+        "url": "https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker",
+        "check": true,
+        "description": "Gestión de los contenedores."
+      },
+      {
+        "text": "Gitlens",
+        "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
+        "check": true,
+        "description": "Permite ver quien y cuando realizo cambios en un archivo."
+      },
+      {
+        "text": "SSH Remote",
+        "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh",
+        "check": true,
+        "description": "Te permite editar código en un servidor remoto a través de una conexión SSH."
+      }
+    ],
+    "tags": ["otros"]
+  },
+  {
+    "title": {
+      "text": "Cursos de Google"
+    },
+    "description":"Sin certificación.",
+    "links": [
+      {
+        "text": "Web.dev",
+        "url": "web.dev",
+        "check": false,
+        "description": "Página principal"
+      },
+      {
+        "text": "Tiempos de carga rapidos",
+        "url": "https://web.dev/fast/",
+        "check": false,
+        "description": "Técnicas para mejorar el rendimiento del sitio."
+      },
+      {
+        "text": "Curso de Angular",
+        "url": "https://web.dev/angular/",
+        "check": false,
+        "description": "Crea aplicaciones de Angular progresivas y de alto rendimiento."
+      }
+    ],
+    "tags": ["otros", "formacición"]
+  },
+  {
+    "title": {
+      "text": "Convertidores de PNG a SVG"
+    },
+    "description":"Plataformas para convertir una imágen PNG a código SVG.",
+    "links": [
+      {
+        "text": "PNGtoSVG",
+        "url": "https://www.pngtosvg.com",
+        "check": true,
+        "description": "Máximo de 6 colores en la conversión."
+      },
+      {
+        "text": "Adobe Express",
+        "url": "https://www.adobe.com/express/feature/image/convert/png-to-svg",
+        "check": true,
+        "description": "Requiere registro."
+      },
+      {
+        "text": "Free Convert",
+        "url": "https://www.freeconvert.com/png-to-svg/download",
+        "check": true,
+        "description": "Permite configuraciones como máximo de colores, ignorar el fondo..."
+      }
+    ],
+    "tags": ["javascript", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Bootstrap snippets & themes"
+    },
+    "description":"Snippets y templates para bootstrap.",
+    "links": [
+      {
+        "text": "Bootswatch",
+        "url": "https://bootswatch.com/",
+        "check": true,
+        "description": "Cambia el estilo de bootstrap rapidamente."
+      },
+      {
+        "text": "Start Bootstrap",
+        "url": "https://startbootstrap.com/snippets",
+        "check": true,
+        "description": "Snnipets y templates."
+      },
+      {
+        "text": "Bootstrapious",
+        "url": "https://bootstrapious.com/",
+        "check": true,
+        "description": ""
+      },
+      {
+        "text": "Bootdey",
+        "url": "https://www.bootdey.com/",
+        "check": true,
+        "description": ""
+      }
+    ],
+    "tags": ["javascript", "front-end", "css"]
+  },
+  {
+    "title": {
+      "text": "Fuentes / Tipografías"
+    },
+    "description":"Plataformas que permiten crear un back-end en la nube aportando servicios de base datos, autenticación...",
+    "links": [
+      {
+        "text": "Dafont",
+        "url": "https://www.dafont.com/es/",
+        "check": true,
+        "description": ""
+      },
+      {
+        "text": "Font Squirrel",
+        "url": "https://www.fontsquirrel.com/",
+        "check": true,
+        "description": ""
+      },
+      {
+        "text": "Google Fonts",
+        "url": "https://fonts.google.com/",
+        "check": true,
+        "description": ""
+      }
+    ],
+    "tags": ["css", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Servicios cloud de back-end"
+    },
+    "description":"Plataformas que permiten crear un back-end en la nube aportando servicios de base datos, autenticación...",
+    "links": [
+      {
+        "text": "Firebase",
+        "url": "https://firebase.google.com/",
+        "check": true,
+        "description": "Con el sello de calidad de Google"
+      },
+      {
+        "text": "Supabase",
+        "url": "https://supabase.com/",
+        "check": false,
+        "description": "Alternativa open source a Firebase"
+      },
+      {
+        "text": "AWS Simplify",
+        "url": "https://aws.amazon.com/es/amplify/",
+        "check": false,
+        "description": "El firebase de la nube de Amazon"
+      },
+      {
+        "text": "Appwritter",
+        "url": "https://appwrite.io/",
+        "check": false,
+        "description": "Servicio open source instalable en servidores propios"
+      }
+    ],
+    "tags": ["cloud", "hosting"]
+  },
+  {
+    "title": {
+      "text": "Imágenes placeholders"
+    },
+    "description":"Agrega imágenes desde urls para desarrollar tus aplicaciones.",
+    "links": [
+      {
+        "text": "Picsum",
+        "url": "https://picsum.photos",
+        "check": true,
+        "description": "Imágenes random o fijas de tamaño configurable."
+      },
+      {
+        "text": "UI Avatars",
+        "url": "https://eu.ui-avatars.com/",
+        "check": true,
+        "description": "Genera imagenes a partir de un texto para avatares de usuarios."
+      }
+    ],
+    "tags": ["imágenes", "front-end"]
+  },
+  {
+    "title": {
+      "text": "Librerias de iconos"
+    },
+    "description":"Paquetes de iconos para aplicaciones.",
+    "links": [
+      {
+        "text": "Iconos8",
+        "url": "https://iconos8.es/icons",
+        "check": false,
+        "description": "Iconos 3D"
+      },
+      {
+        "text": "SVG repo",
+        "url": "svgrepo.com",
+        "check": false,
+        "description": ""
+      },
+      {
+        "text": "Bootstrap icons",
+        "url": "https://icons.getbootstrap.com/",
+        "check": true,
+        "description": ""
+      },
+      {
+        "text": "Ionicons",
+        "url": "https://ionic.io/ionicons",
+        "check": true,
+        "description": ""
+      },
+      {
+        "text": "Font Awesome",
+        "url": "https://fontawesome.com/icons",
+        "check": true,
+        "description": ""
+      },
+      {
+        "text": "Google Icons",
+        "url": "https://fonts.google.com/icons",
+        "check": false,
+        "description": ""
+      },
+      {
+        "text": "Tabler icons",
+        "url": "https://tablericons.com",
+        "check": false,
+        "description": "Gratis para uso comercial, sin atribución"
+      }
+    ],
+    "tags": ["icons", "front-end", "css"]
+  },
+  {
+    "title": {
+      "text": "Serverless Framework",
+      "url": "https://www.serverless.com/",
+      "check": false
+    },
+    "description":"Autoescalado de aplicaciones en AWS Lamba.",
+    "links": [],
+    "tags": ["cloud"]
+  },
+  {
+    "title": {
+      "text": "Terraform",
+      "url": "https://www.terraform.io/",
+      "check": false
+    },
+    "description":"Automatizaciones de infraestructura en cualquier servicio cloud.",
+    "links": [],
+    "tags": ["cloud"]
+  },
+  {
+    "title": {
+      "text": "Webpack bundle analizer",
+      "url": "https://github.com/webpack-contrib/webpack-bundle-analyzer",
+      "check": false
+    },
+    "description":"Visualiza el tamaño de los archivos generados por webpack en un treemap.",
+    "links": [],
+    "tags": ["back-end"]
+  },
+  {
+    "title": {
+      "text": "Habitica",
+      "url": "https://habitica.com/static/home",
+      "check": false
+    },
+    "description":"Gamifica tus tareas.",
+    "links": [],
+    "tags": ["otros"]
+  },
+  {
+    "title": {
+      "text": "Servicios de host de aplicaciones"
+    },
+    "description":"Herramientas para alojamiento y automatización de despliegues.",
+    "links": [
+      {
+        "text": "Heroku",
+        "url": "https://www.heroku.com/",
+        "check": true,
+        "description": "Plataforma bastante guay"
+      },
+      {
+        "text": "Deta",
+        "url": "https://www.deta.sh/",
+        "check": false,
+        "description": ""
+      },
+      {
+        "text": "Netlify",
+        "url": "https://www.netlify.com/",
+        "check": false,
+        "description": ""
+      },
+      {
+        "text": "Vercel",
+        "url": "https://vercel.com/",
+        "check": false,
+        "description": ""
+      }
+    ],
+    "tags": ["cloud", "hosting"]
   }
 ]
+
